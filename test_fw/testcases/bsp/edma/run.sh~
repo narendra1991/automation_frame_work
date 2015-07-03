@@ -1,0 +1,1 @@
+arm-arago-linux-gnueabi-gcc /home/narendra/sentinel_git_ref/test_fw/edma/*.c -o /home/narendra/sentinel_git_ref/test_fw/edma/edma_tests

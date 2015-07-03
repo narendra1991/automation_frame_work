@@ -1,0 +1,33 @@
+#pragma once
+
+#include "exp_gp_common.h"
+
+#define RES_SUCCESS 		0
+#define RES_FAILURE 		-1
+#define RES_INVALID_ARG 	-2
+#define RES_OUT_OF_MEMORY	-3
+#define RES_TIMED_OUT		-4
+#define RES_INVALID_STATE	-5
+
+#define RES_FILE_OPEN_ERROR	-51
+
+#define RES_SOCK_CREATION_ERROR -101
+#define RES_SOCK_BIND_ERROR	-102
+#define RES_SOCK_READ_ERROR	-103
+#define RES_SOCK_WRITE_ERROR	-104
+#define RES_SOCK_ACCEPT_ERROR	-105
+#define RES_SOCK_CONNECT_ERROR	-106
+#define RES_SOCK_SELECT_ERROR	-107
+#define RES_SOCK_SETOPT_ERROR	-108
+
+#define RES_THRD_CREATION_ERROR 	-201
+#define RES_MUTEX_CREATION_ERROR 	-251
+
+
+#define RES_QUEUE_EMPTY 		-301
+
+#define RES_SNT_D_BASE 		(-1000)
+#define RES_SKY_D_BASE 		(-2000)
+#define RES_BCK_D_BASE 		(-3000)
+#define RES_DEV_D_BASE 		(-4000)
+#define RES_VID_D_BASE 		(-5000)
